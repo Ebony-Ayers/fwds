@@ -4,9 +4,9 @@ All data structures are provided in thread safe and thread unsefe versions.
 
 Data structure | type name | Description | Time complexity | Memory notes
 ------------ | ------------- | ------------- | ------------- | -------------
-Queue | queue | Simple FIFO queue | enqueue O(1), dequeue O(1) | Data is garanteed continguous and the control block will be near the data but not garanteed next to it
-Small int priority queue | sipqueue | Priority queue with p integer discrete priorities set at compile-time | enqueue O(1), dequeue O(1) | The data is garanteed to be in one block flowing the control block but the data will NOT be in order
-Stack | stack | simple stack | push O(1), pop O(1) | Data is garanteed contiguous and will be following the control block
+Queue | queue | Simple FIFO queue | enqueue O(1), dequeue O(1) | Data is garanteed continguous
+Small int priority queue | sipqueue | Priority queue with p integer discrete priorities set at compile-time | enqueue O(1), dequeue O(1) | The data is garanteed to be in a single block but will NOT be in order
+Stack | stack | simple stack | push O(1), pop O(1) | Data is garanteed contiguous
 Run-time array | rd_array | non expandable run-time dynimic array | get O(1), set O(1) | Data is garanteed contigous
 Compile-time dynamic array | cd_array | non expandable compile-time dynimic array | get O(1), set O(1) | Data is garanteed contigous
 Compile-time static array | cs_array | non expandable compile-time static array | get O(1), set O(1) | Data is garanteed contigous
